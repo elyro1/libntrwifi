@@ -5,7 +5,7 @@
 #ifdef SDK_BUILD_WIN64
 #include <winsock2.h>
 #endif
-#if defined(SDK_BUILD_LINUX) || defined(SDK_BUILD_NX)
+#if defined(SDK_BUILD_LINUX) || defined(SDK_BUILD_NX) || defined(SDK_BUILD_PROSPERO)
 #include <errno.h>
 #include <sys/socket.h>
 #include <sys/select.h>
